@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+    </title>
+</head>
+<body>
+    <h2>Formularios con HTML</h2>
+  <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates iure ad et? Dolorem fuga quis veritatis sequi distinctio culpa corporis repellendus, fugiat facere earum maxime numquam perferendis modi dignissimos ipsa!</P>  
+ <img src="Images/fomrs.png" alt=""width="180px">
+  <h3><i>Formulario de Inscripción</i></h3>
+  <!--Para crar un formulario debo crear una etiqueta form y todos los elementos deben de ir dentro de esta -->
+  <Form>
+<!--En los formularios para agregar elementos se hace con la etiqueta "label" que sirve para agregarle el titulo al cuadro de texto y la etiqueta ""input" que es para generar el cuadro de texto -->
+<label for="">Nombre:</label>
+<input type="text" placeholder="Ingresa tu nombre"name="" id="">
+<label for="">Apellido</label>
+<input type="text" placeholder="Ingresa tu apellido" required><br></br>
+<!--El placeholder es un texto guía para indicarle al usuario qué debe de escribir en ese cuadro de texto-->
+<label for="">Número Telefónico</label>
+<input type="number" name="" id=""placeholder="Ingresa número de telefóno"><br></br>
+<label for="">Correo:</label>
+<input type="email" name="" id="">
+<label for="">Contraseña</label>
+<input type="password" name="" id=""placeholder="Ingresa tu contraseña"><br></br>
+<label for="">Fecha y hora de insripción</label>
+<input type="datetime-local" name="" id=""><br></br>
+<label for="">Sexo:</label><br></br>
+<input type="radio" name="Sexo:" id="">Femenino <br></br>
+<input type="radio" name="Sexo:" id="">Masculino <br></br>
+<input type="radio" name="Sexo:" id="">No binarie<br></br>
+<label for="">Seleccione una ciudad</label>
+<select name="" id="">
+    <option value=>Medallo</option>
+    <option value=>Rololandia</option>
+    <option value=>Cali pachanguero</option>
+    <option value=>Cartacho</option>
+    <option value=>Otra</option>
+</select><br></br>
+<label for="">Subir una foto</label>
+<input type="file" name="" id=""><br></br>
+<label for="">Selecciona tu color favorito</label>
+<input type="color" name="" id=""><br></br>
+<label for="">Rango</label>
+<input type="range" name="" id=""><br></br>
+<input type="checkbox" required><a href="">Aceptar terminos y condiciones</a>br<br></br>
+<input type="button" value="Botón estático">
+<input type="submit" value="Enviar datos">
+<input type="reset" value="Limpiar formulario">
+<!--Los botones anteriores deben estar dentro de la etiqueta form-->
+</Form>
+</body>
+</html>
